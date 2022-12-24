@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Venu-Spot FrontEnd
 
 This project was bootstrapped with [Vite](https://vitejs.dev/).
 
