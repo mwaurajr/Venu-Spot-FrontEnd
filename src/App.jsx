@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 
 import NavBar from './components/navbar'
+import Footer from './components/footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
+      <Footer />
     </div>
   )
 }
