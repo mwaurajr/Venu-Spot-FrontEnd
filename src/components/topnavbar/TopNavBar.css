@@ -78,6 +78,29 @@
       right: -10px;
     }
   }
+
+
+.topnavIconBadge {
+    align-items: center;
+    background-color: orangered;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    font-size: 10px;
+    height: 15px;
+    justify-content: center;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    width: 15px;
+  }
+  
+  /* .topnavLeft {
+  }
+   */
+  .topnavRight {
+    display: flex;
+  }
   
 
   

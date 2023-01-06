@@ -13,16 +13,11 @@ function TopNavBar(props) {
         <div className="topnavbarIconContainer">
           <Language />
           <div className="dropdown-content">
-            <p>Lorem</p>
+            <p>English</p>
+            <p>Swahili</p>
           </div>
         </div>
-        <div className="topnavbarIconContainer">
-          <Settings />
-          <div className="dropdown-content">
-            <p>Test</p>
-            <p>Test</p>
-          </div>
-        </div>
+    
         <div className="topnavbarIconContainer">
           <NotificationsNone />
           <span className="topnavIconBadge">2</span>
