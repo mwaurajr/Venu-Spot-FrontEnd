@@ -7,9 +7,9 @@ function TopNavBar(props) {
     <div className="topnavbar">
     <div className="topnavbarWrapper">
       <div className="topnavLeft">
-        <span className="mainlogo">anAdminDash</span>
+        <span className="mainlogo">Manager Dashboard</span>
       </div>
-      
+
       </div>
       </div>
   );
