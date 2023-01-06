@@ -23,8 +23,28 @@ function SideNavBar(props) {
     else showit = false;
  
     return (
-
-    
+        <div className="sidenavbar">
+        <div className="sidenavbarWrapper">
+          {width < 1024 ? (
+            <>
+              <div className="custom-select-div">
+                <select
+                  onChange={(e) => setAddrtypeNow(addrtype[e.target.value])}
+                  className="custom-select"
+                >
+                      {Add.map((address, key) => (
+                  <option key={key} value={key}>
+                    {address}
+                  </option>
+                ))}
+              </select>
+            </div>
+          </>
+        ) : (
+          <></>
+        )}
+        </div>
+        </div>
       );
     }
 
