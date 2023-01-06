@@ -63,4 +63,21 @@
     border-radius: 5px;
   }
 
+
+.topnavbarIconContainer:hover .dropdown-content {
+    display: block;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .topnavbar {
+      border-bottom-right-radius: 0px;
+      z-index: 20;
+      box-shadow: 0 0px 0px 0 rgba(31, 38, 135, 0.37);
+    }
+    .topnavbarIconContainer {
+      right: -10px;
+    }
+  }
+  
+
   
