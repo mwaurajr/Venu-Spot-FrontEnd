@@ -4,7 +4,15 @@ import { NotificationsNone, Language, Settings } from "@mui/icons-material";
 
 function TopNavBar(props) {
   return (
-  )
+    <div className="topnavbar">
+    <div className="topnavbarWrapper">
+      <div className="topnavLeft">
+        <span className="mainlogo">anAdminDash</span>
+      </div>
+      
+      </div>
+      </div>
+  );
 }
 
 export default TopNavBar;
