@@ -43,6 +43,46 @@ function SideNavBar(props) {
         ) : (
           <></>
         )}
+           {showit || addrtypeNow === "Dashboard" ? (
+          <div className="sidenavbarMenu">
+            <div className="sidenavbarTitleDiv">
+              <h3 className="sidenavbarTitle">
+                {showit ? "Dashboard" : "▼Dashboard"}
+              </h3>
+            </div>
+            <ul className="sidenavbarList">
+              <li className="sidenavbarListItem active">
+                <LineStyle className="sidenavbarIcon" />
+                Home
+              </li>
+              <li className="sidenavbarListItem">
+                <Timeline className="sidenavbarIcon" />
+                Profile
+              </li>             
+            </ul>
+          </div>
+        ) : (
+          <></>
+        )}
+        {showit || addrtypeNow === "Quick Menu" ? (
+          <div className="sidenavbarMenu">
+            <h3 className="sidenavbarTitle">
+              {showit ? "Quick Menu" : "▼QuickMenu"}
+            </h3>
+            <ul className="sidenavbarList">
+              <li className="sidenavbarListItem">
+                <PermIdentity className="sidenavbarIcon" />
+                Clients
+              </li>
+              <li className="sidenavbarListItem">
+                <AttachMoney className="sidenavbarIcon" />
+                Transactions
+              </li>
+              </ul> 
+              </div> 
+                ) : (
+                    <></>
+                  )}
         </div>
         </div>
       );
