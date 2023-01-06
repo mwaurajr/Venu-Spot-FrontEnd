@@ -15,6 +15,14 @@ function TopNavBar(props) {
             <div className="dropdown-content">
               <p>Lorem</p>
             </div>
+            <div className="topnavbarIconContainer">
+            <Settings />
+            <div className="dropdown-content">
+              <p>Tim</p>
+              <p>Immaculate</p>
+              <p>Isaack</p>
+            </div>
+          </div>
           </div>
       </div>
 
