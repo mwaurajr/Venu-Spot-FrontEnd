@@ -13,3 +13,19 @@ function SideNavBar(props) {
       "Venues",
       "Clients",
     ]);
+
+    const [addrtypeNow, setAddrtypeNow] = useState("Dashboard");
+
+    const Add = addrtype.map((Add) => Add);
+  
+    let showit = true;
+    if (width > 1024) showit = true;
+    else showit = false;
+ 
+    return (
+
+    
+      );
+    }
+
+    export default SideNavBar;
