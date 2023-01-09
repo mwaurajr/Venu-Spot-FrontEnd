@@ -1,120 +1,30 @@
 import React from "react"
 
 function Footer() {
-    <>
-    <footer class="footer-1 bg-gray-100 py-8 sm:py-12">
-    <div class="container mx-auto px-4">
-        <div class="sm:flex sm:flex-wrap sm:-mx-4 md:py-4">
-        <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6">
-            <h5 class="text-xl font-bold mb-6">Features</h5>
-            <ul class="list-none footer-links">
-                <li class="mb-2">
-                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800 padding-bottom: 2px">Cool stuff</a>
-                </li>
-                <li class="mb-2">
-                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800 padding-bottom: 2px">Random feature</a>
-                </li>
-                <li class="mb-2">
-                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800 padding-bottom: 2px">Team feature</a>
-                </li>
-                <li class="mb-2">
-                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800 padding-bottom: 2px">Stuff for developers</a>
-                </li>
-                <li class="mb-2">
-                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800 padding-bottom: 2px">Another one</a>
-                </li>
-                <li class="mb-2">
-                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800 padding-bottom: 2px">Last time</a>
-                </li>
-            </ul>
-        </div>
-        <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 sm:mt-0">
-            <h5 class="text-xl font-bold mb-6">Resources</h5>
-            <ul class="list-none footer-links">
-            <li class="mb-2">
-                <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Resource</a>
-            </li>
-            <li class="mb-2">
-                <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Resource name</a>
-            </li>
-            <li class="mb-2">
-                <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Another resource</a>
-            </li>
-            <li class="mb-2">
-                <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Final resource</a>
-            </li>
-            </ul>
-        </div>
-        <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
-            <h5 class="text-xl font-bold mb-6">About</h5>
-            <ul class="list-none footer-links">
-            <li class="mb-2">
-                <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Team</a>
-            </li>
-            <li class="mb-2">
-                <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Locations</a>
-            </li>
-            <li class="mb-2">
-                <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Privacy</a>
-            </li>
-            <li class="mb-2">
-                <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Terms</a>
-            </li>
-            </ul>
-        </div>
-        <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
-            <h5 class="text-xl font-bold mb-6">Help</h5>
-            <ul class="list-none footer-links">
-            <li class="mb-2">
-                <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Support</a>
-            </li>
-            <li class="mb-2">
-                <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Help Center</a>
-            </li>
-            <li class="mb-2">
-                <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Contact Us</a>
-            </li>
-            </ul>
-        </div>
-        <div class="px-4 mt-4 sm:w-1/3 xl:w-1/6 sm:mx-auto xl:mt-0 xl:ml-auto">
-            <h5 class="text-xl font-bold mb-6 sm:text-center xl:text-left">Stay connected</h5>
-            <div class="flex sm:justify-center xl:justify-start">
-            <a href="" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 text-gray-600 hover:text-white hover:bg-blue-600 hover:border-blue-600">
-                <i class="fab fa-facebook"></i>
-            </a>
-            <a href="" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 ml-2 text-gray-600 hover:text-white hover:bg-blue-400 hover:border-blue-400">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 ml-2 text-gray-600 hover:text-white hover:bg-red-600 hover:border-red-600">
-                <i class="fab fa-google-plus-g"></i>
-            </a>
+    return (       
+        <footer class="fixed mx-auto width-full bottom-0 left-0 right-0 p-4 bg-white rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="#" class="flex items-center mb-4 sm:mb-0">
+                    <span class="ml-16 self-center text-2xl font-semibold whitespace-nowrap text-black dark:text-white">VenuSpot</span>
+                </a>
+                <ul class="flex flex-wrap items-center mr-16 mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
+                    <li>
+                        <a href="#" class="mr-4 hover:text-black md:mr-6 text-black">Terms of Use</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mr-4 hover:text-black md:mr-6 text-black">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:text-black text-black">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </div>
-        </div>
-
-        <div class="sm:flex sm:flex-wrap sm:-mx-4 mt-6 pt-6 sm:mt-12 sm:pt-12 border-t">
-        <div class="sm:w-full px-4 md:w-1/6">
-            <strong>FWR</strong>
-        </div>
-        <div class="px-4 sm:w-1/2 md:w-1/4 mt-4 md:mt-0">
-            <h6 class="font-bold mb-2">Address</h6>
-            <address class="not-italic mb-4 text-sm">
-            123 6th St.<br/>
-            Melbourne, FL 32904
-            </address>
-        </div>
-        <div class="px-4 sm:w-1/2 md:w-1/4 mt-4 md:mt-0">
-            <h6 class="font-bold mb-2">Free Resources</h6>
-            <p class="mb-4 text-sm">Use our HTML blocks for <strong>FREE</strong>.<br/>
-            <em>All are MIT License</em></p>
-        </div>
-        <div class="px-4 md:w-1/4 md:ml-auto mt-6 sm:mt-4 md:mt-0">
-            <button class="px-4 py-2 bg-purple-800 hover:bg-purple-900 rounded text-white">Get Started</button>
-        </div>
-        </div>
-    </div>
-    </footer>
-    </>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <span class="block text-sm sm:text-center dark:text-gray-400 fixed left-20">
+                ©<a href="#" class="hover:text-black text-black">VenuSpot™</a>. All Rights Reserved.
+            </span>
+        </footer>
+    )
 }
 
 export default Footer
