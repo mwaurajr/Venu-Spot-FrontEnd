@@ -1,40 +1,44 @@
-import { useState } from 'react'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import reactLogo from './assets/react.svg'
-import "./App.css";
+import React, { useEffect, useState } from "react";
+import ReactDOM from "react-dom";
 
-const App = () => {
-  const {
-    activeMenu,
-    themeSettings,
-    toggleThemeSettings,
-    currentColor,
-    currentMode,
-  } = useStateContext();
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
+import "./App.css";
+import TopNavBar from "./components/topnavbar/TopNavBar";
+import SideNavBar from "./components/sidenavbar/SideNavBar";
+
+
+
+function App() {
+  const [width, setWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    function handleResize() {
+      setWidth(window.innerWidth);
+    }
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, [width]);
+
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <Router>
+      <TopNavBar />
+      <div className="container">
+        <SideNavBar width={width} />
+        <Switch>
+          <Route exact path="/">
+            <HomePage width={width} />
+          </Route>
+          <Route path="/users">
+            <UsersPage width={width} />
+          </Route>
+        </Switch>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
-  )
+    </Router>
+  );
 }
 
-export default App
+export default App;
+
+//
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
