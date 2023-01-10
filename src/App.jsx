@@ -1,11 +1,16 @@
 import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import reactLogo from './assets/react.svg'
+import "./App.css";
 
-import './App.css'
-
-import NavBar from './components/navbar'
-import Footer from './components/footer'
-
-function App() {
+const App = () => {
+  const {
+    activeMenu,
+    themeSettings,
+    toggleThemeSettings,
+    currentColor,
+    currentMode,
+  } = useStateContext();
   return (
     <div className="App">
       <NavBar/>
