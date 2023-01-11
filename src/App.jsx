@@ -1,19 +1,15 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
-import SearchBar from './components/SearchBar'
-import NavBar from './components/navBar'
+import SideBar from './components/SideBar'
+import Venues from './components/Venues'
 
 function App() {
 
-  return (   
+  return (
     <>
- <div classname='App'>
-        <SearchBar/>
-        <NavBar/>
-      </div>
-      <hr></hr>
-      <h2>Our Venues</h2>
+        {/* <SearchBar/> */}
+        <SideBar />
+        <Venues />
       </>
 
   )

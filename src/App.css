@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -55,7 +55,7 @@ form {
 }
 
 body {
-  background-color: rgb(3, 0, 0);
+  background-color: rgb(214, 214, 214);
 }
 
 #header {
@@ -144,30 +144,26 @@ h2 {
   padding-top: 16px;
 }
 
-/* Style sidebar links */
 .sidebar a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
-  color: #818181;
+  color: #2e2e2e;
   display: block;
 }
 
-/* Style links on mouse-over */
 .sidebar a:hover {
-  color: #f1f1f1;
+  color: #B56666;
 }
 
-/* Style the main content */
 .main {
-  margin-left: 160px; /* Same as the width of the sidenav */
+  margin-left: 160px;
   padding: 0px 10px;
 }
 
-/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
 
-
+ */
