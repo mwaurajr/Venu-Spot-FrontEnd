@@ -1,8 +1,9 @@
 const SearchBar = () => (
+  
         
     <div className="search-container">
     <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search"/>
+      <input type="text" placeholder="Search venues" name="search"/>
       <button type="submit"><i className="fa fa-search"></i></button>
     </form>
   </div>

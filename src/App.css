@@ -55,7 +55,7 @@ form {
 }
 
 body {
-  background-color: white;
+  background-color: rgb(3, 0, 0);
 }
 
 #header {
@@ -66,7 +66,7 @@ body {
   height: 100vh;
 }
 #header .closemenu {
-  color: #000;
+  color: rgb(252, 246, 246);
   position: absolute;
   right: 0;
   z-index: 9999;
@@ -134,12 +134,12 @@ h2 {
 
 .sidebar {
   height: 100%;
-  width: 160px;
+  width: 350px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: rgb(253, 251, 251);
   overflow-x: hidden;
   padding-top: 16px;
 }
@@ -169,12 +169,5 @@ h2 {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
-.search-bar {
-  background-color: #fece00;
-  width: 100%;
-
-}
-
-
 
 
