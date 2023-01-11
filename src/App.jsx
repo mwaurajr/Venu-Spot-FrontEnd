@@ -18,6 +18,7 @@ const App = () => {
   //   currentColor,
   //   currentMode,
   // } = useStateContext();
+  
   return (
     <div className="App">
       <NavBar/>
