@@ -12,10 +12,9 @@ function Footer() {
                             VenuSpot
                         </span>
                     </a>
-                    {/* <SocialHandle /> */}
-                    <ul class="flex flex-wrap inline-block space-x-5 items-center mr-16 mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
-                        <SocialHandle />
-                        {/* <li>
+                    <SocialHandle />
+                    {/* <ul class="flex flex-wrap inline-block space-x-5 mt-16 items-center mr-16 mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
+                        <li>
                             <a href="#" class="mr-4 hover:text-black md:mr-6 text-black">Terms of Use</a>
                         </li>
                         <li>
@@ -23,14 +22,14 @@ function Footer() {
                         </li>
                         <li>
                             <a href="#" class="hover:text-black text-black">Contact</a>
-                        </li> */}
-                    </ul>
+                        </li>
+                    </ul> */}
                 </div>
                 <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                 <span class="block text-sm sm:text-center dark:text-gray-400 absolute left-20">
                     ©<a href="#" class="hover:text-black text-black">VenuSpot™</a>. All Rights Reserved.
-                    <ul class="flex flex-wrap absolute bottom-5 items-center mr-16 mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
-                        <li>
+                    {/* <ul class="flex flex-wrap absolute bottom-5 items-center mr-16 mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400"> */}
+                        {/* <li>
                             <a href="/terms" class="mr-4 hover:text-black md:mr-6 text-black">Terms of Use</a>
                         </li>
                         <li>
@@ -38,8 +37,20 @@ function Footer() {
                         </li>
                         <li>
                             <a href="/contact" class="hover:text-black text-black">Contact</a>
+                        </li> */}
+                    {/* </ul> */}
+
+                    {/* <ul class="flex flex-wrap space-x-5  items-center mr-16 mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
+                        <li>
+                            <a href="#" class="mr-4 hover:text-black md:mr-6 text-black">Terms of Use</a>
                         </li>
-                    </ul>
+                        <li>
+                            <a href="#" class="mr-4 hover:text-black md:mr-6 text-black">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:text-black text-black">Contact</a>
+                        </li>
+                    </ul> */}
                 </span>
             </footer>
         </div>
