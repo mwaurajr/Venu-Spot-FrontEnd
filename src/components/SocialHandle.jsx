@@ -10,7 +10,7 @@ import {
 
 function SocialHandle() {
     return (
-        <div className="social-container bg-gray fixed space-x-8 right-5 mr-16 flex items-center justify-between">
+        <div className="social-container bg-gray absolute space-x-8 right-5 mr-16 flex items-center justify-between">
             <a href="#" className="youtube social ">
                 <FontAwesomeIcon icon={faYoutube} color="black" />
             </a>
