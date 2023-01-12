@@ -27,11 +27,14 @@ const venues = [
 const CardList = () => (
     <>
     <h1 className='text-bold text-3xl pl-3 pt-10 text-blue-500'>Our Venues</h1>
-    <ul className="cards">
+    <ul className="display justify context context center">
       {venues.map((venue) => {
         return <SingleVenueCard key={venue.id} venue={venue} />;
       })}
     </ul>
+
+    
+    
   </>
 );
 
