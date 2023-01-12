@@ -3,7 +3,8 @@ import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 
-import NavBar from './components/NavBar'
+import Card from './components/Card';
+import NavBar from './components/NavBar';
 import Footer from './components/Footer'
 import LogIn from './components/LogIn';
 import SignUp from './components/SignUp';
@@ -26,7 +27,7 @@ const App = () => {
         <Route path='/' element={ <LandingPage/> } />
         <Route path='login' element={ <LogIn /> } />
         <Route path='/signup' element={ <SignUp /> } />
-        {/* <Route path='/' element={ <Home/> } /> */}
+        <Route path='/venues' element={ <Card/> } />
         <Route path='/contact' element={ <Contact /> } />
       </Routes>
       <Footer />
