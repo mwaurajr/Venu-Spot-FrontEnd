@@ -1,5 +1,15 @@
 import { useState } from 'react'
 import { Routes, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.css";
+import React from "react";
+import App from "./App";
+import "./index.css";
+ReactDOM.render(
+  <React.Fragment>
+    <App />
+  </React.Fragment>,
+  document.getElementById("root")
+);
 
 import "./App.css";
 
