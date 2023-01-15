@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Pagination } from "react-bootstrap";
+//import './MyVenues.css';
 
 const MyVenues = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -23,10 +24,11 @@ const MyVenues = () => {
 
   return (
     <div className="container">
+      <h1 className="text-center">My Venues</h1>  
       <div className="row">
         {currentImages.map((image) => (
           <div className="col-md-4 mb-4" key={image.id}>
-            <div className="card h-100">
+            <div className="card h-100 image-card"> // add the class to the card element
               <img src={image.imgLink} className="card-img-top" alt={image.title} />
               <div className="card-body">
                 <h5 className="card-title">{image.title}</h5>

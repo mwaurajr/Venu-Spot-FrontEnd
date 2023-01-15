@@ -19,11 +19,12 @@ import AllUsers from './components/allUsers';
 import LoginForm from './components/loginForm';
 import RegisterForm from './components/registerForm';
 import ForgotPassword from './components/forgotPassword';
-import PageNotFound from './components/pageNotFound';
+import PageNotFound from './components/ClientReviews';
 import InternalServerError from './components/internalServerError';
 import Charts from './components/charts';
 import Tables from './components/tables';
 import MyVenues from './components/myVenues';
+import ClientReviews from './components/ClientReviews';
 
 const App = () => {
   //Define states:
@@ -63,8 +64,8 @@ const App = () => {
                     <Route exact path="/venues">
                       <MyVenues />
                     </Route>
-                    <Route exact path="/page-not-found">
-                      <PageNotFound />
+                    <Route exact path="/client-reviews">
+                      <ClientReviews />
                     </Route>
                     <Route  path="/forgot-password">
                       <ForgotPassword />

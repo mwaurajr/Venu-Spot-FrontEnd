@@ -157,7 +157,7 @@ const SideNav = () => {
                   <NavLink
                     activeClassName="nav-link selected"
                     className="nav-link"
-                    to="/page-not-found"
+                    to="/client-reviews"
                   >
                     Client Reviews
                   </NavLink>
