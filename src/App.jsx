@@ -1,17 +1,9 @@
 import { useState } from 'react'
-import { Routes, Route } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.css";
-import React from "react";
-import App from "./App";
-import "./index.css";
-ReactDOM.render(
-  <React.Fragment>
-    <App />
-  </React.Fragment>,
-  document.getElementById("root")
-);
+import './App.css'
+import SideBar from './components/SideBar'
+import Venues from './components/Venues'
 
-import "./App.css";
+function App() {
 
 import Card from './components/Card';
 import NavBar from './components/NavBar';
@@ -31,17 +23,11 @@ const App = () => {
   // } = useStateContext();
   
   return (
-    <div className="App">
-      <NavBar/>
-      <Routes>
-        <Route path='/' element={ <LandingPage/> } />
-        <Route path='login' element={ <LogIn /> } />
-        <Route path='/signup' element={ <SignUp /> } />
-        <Route path='/venues' element={ <Card/> } />
-        <Route path='/contact' element={ <Contact /> } />
-      </Routes>
-      <Footer />
-    </div>
+    <>
+        {/* <SearchBar/> */}
+        <SideBar />
+        <Venues />
+      </>
   )
 }
 
