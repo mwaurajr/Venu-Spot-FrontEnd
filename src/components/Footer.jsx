@@ -5,7 +5,7 @@ import SocialHandle from "./SocialHandle"
 function Footer() {
     return (    
         <div className="h-80">   
-            <footer class="absolute mx-auto mt-96 z-10 width-full left-0 right-0 p-4 bg-gray rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
+            <footer class="absolute top-80 mx-auto mt-96 width-full left-0 right-0 p-4 bg-gray rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
                 <div class="sm:flex sm:items-center sm:justify-between">
                     <a href="#" class="flex mb-4 sm:mb-0">
                         <span class="font-semibold uppercase text-lg text-black ml-12">

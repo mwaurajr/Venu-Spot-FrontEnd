@@ -12,7 +12,7 @@ function NavBar() {
 
     return (
         <div>
-            <nav className="fixed top-0 left-0 right-0 bg-gray-100">
+            <nav className="absolute top-0 left-0 right-0 bg-gray-100">
                 <div className="max-w-7xl mx-auto px-4 py-2 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">
@@ -51,10 +51,10 @@ function NavBar() {
                                         Get Started
                                     </a>
 
-                                    <form class="flex items-center">
-                                        <input class="border-2 rounded-l-full py-2 px-4 focus:outline-none focus:border-white" type="text" placeholder="Search" />
-                                        <button class="bg-green-800 hover:bg-green-500 py-3.5 rounded-r-full py-2 px-4 focus:outline-none focus:shadow-outline-black">
-                                            <svg class="fill-current text-black h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/></svg>
+                                    <form classname="flex items-center">
+                                        <input className="border-2 rounded-l-full py-2 px-4 focus:outline-none focus:border-white" type="text" placeholder="Search" />
+                                        <button className="bg-green-800 hover:bg-green-500 py-3.5 rounded-r-full py-2 px-4 focus:outline-none focus:shadow-outline-black">
+                                            <svg className="fill-current text-black h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/></svg>
                                         </button>
                                     </form>
                                 </div>
@@ -140,10 +140,10 @@ function NavBar() {
                         List a Venue
                         </a>
 
-                        <form class="flex justify-center items-center py-5">
-                            <input class="border-2 rounded-l-full py-2 px-4 focus:outline-none focus:border-white" type="text" placeholder="Search" />
-                            <button class="bg-green-800 hover:bg-green-500 rounded-r-full py-3.5 px-4 focus:outline-none focus:shadow-outline-black">
-                                <svg class="fill-current text-black h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/></svg>
+                        <form className="flex justify-center items-center py-5">
+                            <input className="border-2 rounded-l-full py-2 px-4 focus:outline-none focus:border-white" type="text" placeholder="Search" />
+                            <button className="bg-green-800 hover:bg-green-500 py-3.5 rounded-r-full py-2 px-4 focus:outline-none focus:shadow-outline-black">
+                                <svg className="fill-current text-black h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/></svg>
                             </button>
                         </form>
                     </div>

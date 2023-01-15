@@ -12,7 +12,7 @@ function NavBar() {
 
     return (
         <div>
-            <nav className="fixed top-0 left-0 right-0">
+            <nav className="absolute z-40 top-0 left-0 right-0">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">
@@ -27,7 +27,7 @@ function NavBar() {
                                         href="#"
                                         className="hover:bg-gray-700 hover:text-white text-black px-3 py-2 rounded-md text-sm font-medium"
                                     >
-                                        Home
+                                        HomeNo
                                     </a>
 
                                     <a
