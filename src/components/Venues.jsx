@@ -1,4 +1,5 @@
 import CardList from "./CardList";
+import SideBar from "./SideBar";
 
 const Venues = () => (
   <>
