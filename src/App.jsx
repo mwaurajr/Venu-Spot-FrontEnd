@@ -5,7 +5,8 @@ import Venues from './components/Venues'
 
 function App() {
 
-import NavBar from './components/NavBar'
+import Card from './components/Card';
+import NavBar from './components/NavBar';
 import Footer from './components/Footer'
 import LogIn from './components/LogIn';
 import SignUp from './components/SignUp';
@@ -27,7 +28,6 @@ const App = () => {
         <SideBar />
         <Venues />
       </>
-
   )
 }
 

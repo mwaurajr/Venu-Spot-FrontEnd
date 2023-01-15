@@ -1,6 +1,9 @@
 import React from "react"
 
 import Venue from '../assets/venue.jpg'
+import Weddings from '../assets/Weddings.jpg'
+import Reunion from '../assets/Reunion.jpg'
+import Tropical from '../assets/Tropical.jpg'
 
 function LandingPage() {
     return (
@@ -16,6 +19,14 @@ function LandingPage() {
             </div>
             <button class="rounded-full float-left absolute left-20 mt-60 bg-green-800"><a href="/signup" className="text-white hover:text-white">Get Started</a></button>
             <button class="rounded-full float-left absolute left-60 mt-60 bg-gray-200 text-green-800 hover:bg-green-800 hover:text-white"><a href="/signup" className="text-green-800 hover:text-white">Learn More</a></button>
+
+            
+            <h4>Featured Venues</h4>
+            <div className="flex absolute top-80 mt-60 left-40 justify-center items-center">
+                <img src={Weddings} className="w-1/3 h-40 mx-8"/>
+                <img src={Reunion} className="w-1/3 h-40 mx-8"/>
+                <img src={Tropical} className="w-1/3 h-40 mx-8" />
+            </div>
         </div>
     )
 }
