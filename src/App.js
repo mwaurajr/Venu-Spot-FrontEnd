@@ -14,15 +14,16 @@ import Footer from './components/footer';
 
 //Components for routing
 import Dashboard from './components/dashboard';
+import UserDashboard from './components/UserDashboard';
 import AllUsers from './components/allUsers';
 import LoginForm from './components/loginForm';
 import RegisterForm from './components/registerForm';
 import ForgotPassword from './components/forgotPassword';
 import PageNotFound from './components/pageNotFound';
 import InternalServerError from './components/internalServerError';
-import AccessDenied from './components/accessDenied';
 import Charts from './components/charts';
 import Tables from './components/tables';
+import MyVenues from './components/myVenues';
 
 const App = () => {
   //Define states:
@@ -59,8 +60,8 @@ const App = () => {
                     <Route exact path="/internal-server-error">
                       <InternalServerError />
                     </Route>
-                    <Route exact path="/access-denied">
-                      <AccessDenied />
+                    <Route exact path="/venues">
+                      <MyVenues />
                     </Route>
                     <Route exact path="/page-not-found">
                       <PageNotFound />

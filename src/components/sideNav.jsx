@@ -150,7 +150,7 @@ const SideNav = () => {
                   <NavLink
                     activeClassName="nav-link selected"
                     className="nav-link"
-                    to="/access-denied"
+                    to="/venues"
                   >
                     My Venues
                   </NavLink>
