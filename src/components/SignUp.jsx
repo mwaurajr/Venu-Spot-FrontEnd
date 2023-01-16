@@ -4,7 +4,7 @@ function SignUp() {
     return (
         <div class="flex items-center justify-center">
             <form action="" class="lg:w-3/4 md:w-3/4 sm:w-3/4 bg-white rounded-lg items-center">
-                <div class="px-12 py-32 pb-10">
+                <div class="px-12 py-32 pb-10 ml-96 mt-20">
                     <div class="w-full mb-2">
                         <div class="flex justify-center">
                             <input type="text" placeholder="Username"
@@ -13,13 +13,13 @@ function SignUp() {
                         </div>
                     </div>
                     <div class="w-full mb-2">
-                        <div class="flex justify-center">
+                        <div class="flex justify-center mt-6">
                             <input type="password" placeholder="Password"
                                 class="px-8 w-96 border rounded-xl py-2 text-gray-700 focus:outline-none" />
                         </div>
                     </div>
                     <div class="w-full mb-2">
-                        <div class="flex justify-center">
+                        <div class="flex justify-center mt-6">
                             <input type="password" placeholder="Confirm Password"
                                 class="px-8 w-96 border rounded-xl py-2 text-gray-700 focus:outline-none" />
                         </div>
