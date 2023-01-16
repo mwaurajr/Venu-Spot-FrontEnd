@@ -7,7 +7,7 @@ function SignUp() {
                 <div class="px-12 py-32 pb-10 ml-96 mt-20">
                     <div class="w-full mb-2">
                         <div class="flex justify-center">
-                            <input type="text" placeholder="Username"
+                            <input type="email" placeholder="email@xyz.com"
                                 class="px-8 w-96 border rounded-xl py-2 text-gray-700
         focus:outline-none items-center" />
                         </div>
