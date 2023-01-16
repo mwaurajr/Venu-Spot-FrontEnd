@@ -2,7 +2,7 @@ import React from "react";
 import CustomChart from "./common/customChart";
 import CustomTable from "./common/customTable";
 
-const Dashboard = () => {
+const UserDashboard = () => {
   return (
     <div className="container-fluid">
       <h1 className="mt-4">Manager Dashboard</h1>
@@ -79,4 +79,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default UserDashboard;

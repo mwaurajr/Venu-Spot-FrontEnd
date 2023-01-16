@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Routes, Route } from "react-router-dom";
 
+
 import './App.css'
 import SideBar from './components/SideBar'
 import Venues from './components/Venues'
@@ -13,6 +14,9 @@ import LandingPage from './components/LandingPage'
 import Contact from './components/Contact';
 import Admin from './components/Admin';
 
+
+import Dashboard from './Manager/managerDashboard';
+
 function App() {
   return (
     < div className='App'>
@@ -24,8 +28,10 @@ function App() {
         <Route path='/admin' element={ <Admin/> } />
         <Route path='/contact' element={ <Contact /> } />
         <Route path='/venues' element={ <Venues /> } />
+        <Route path='/manager-dash' element={<Dashboard />} />
       </Routes>
-      <Footer />
+
+   
     </div>
   )
 }
