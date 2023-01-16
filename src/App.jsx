@@ -14,14 +14,6 @@ import Contact from './components/Contact';
 import Admin from './components/Admin';
 
 function App() {
-  // const {
-  //   activeMenu,
-  //   themeSettings,
-  //   toggleThemeSettings,
-  //   currentColor,
-  //   currentMode,
-  // } = useStateContext();
-  
   return (
     < div className='App'>
       <NavBar />
@@ -31,8 +23,8 @@ function App() {
         <Route path='/signup' element={ <SignUp /> } />
         <Route path='/admin' element={ <Admin/> } />
         <Route path='/contact' element={ <Contact /> } />
+        <Route path='/venues' element={ <Venues /> } />
       </Routes>
-      {/* <Venues /> */}
       <Footer />
     </div>
   )
