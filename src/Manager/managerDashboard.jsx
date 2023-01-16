@@ -2,6 +2,9 @@ import React from 'react';
 import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { Link } from 'react-router-dom';
+import { Card, CardImg, CardBody, CardTitle, CardText } from 'reactstrap';
+
 
 function Dashboard() {
   return (
@@ -15,10 +18,10 @@ function Dashboard() {
             <i className="fas fa-tachometer-alt me-2"></i>Manager Dashboard
           </a>
           <a href="#" className="list-group-item list-group-item-action bg-transparent second-text fw-bold">
-            <i className="fas fa-project-diagram me-2"></i>My Venues
+            <i className="fa-solid fa-building-user"></i> My Venues
           </a>
           <a href="#" className="list-group-item list-group-item-action bg-transparent second-text fw-bold">
-            <i className="fas fa-chart-line me-2"></i>My Clients
+            <i className="fa-sharp fa-solid fa-users"></i> My Clients
           </a>
           <a href="#" className="list-group-item list-group-item-action bg-transparent second-text fw-bold">
             <i className="fas fa-paperclip me-2"></i> Upload Venue
@@ -53,12 +56,7 @@ function Dashboard() {
               <li className="nav-item active">
                 <a className="nav-link primary-text fw-bold" href="#">Home <span className="sr-only">(current)</span></a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link primary-text fw-bold" href="#">Features</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link primary-text fw-bold" href="#">Pricing</a>
-              </li>
+            
               <li className="nav-item">
                 <a className="nav-link primary-text fw-bold" href="#">About</a>
               </li>
@@ -66,8 +64,48 @@ function Dashboard() {
           </div>
         </nav>
 
-        <div className="container-fluid">
-          <h1 className="mt-4">Welcome to the Dashboard</h1>
+        {/* <div className="container-fluid">
+          <h1 className="mt-4">Welcome to the Manager Dashboard</h1>
+          <p>dsdsdsdsd</p>
+        </div> */}
+
+<div className="container-fluid">
+            <h1 className="text-center my-3">Welcome Manager</h1>
+            <div className="row">
+                <div className="col-md-4">
+                    <Card>
+                        <Link to="/page1">
+                            <CardImg top src="image1.jpg" alt="Card image" />
+                        </Link>
+                        <CardBody>
+                            <CardTitle>Title 1</CardTitle>
+                            <CardText>Description 1</CardText>
+                        </CardBody>
+                    </Card>
+                </div>
+                <div className="col-md-4">
+                    <Card>
+                        <Link to="/page2">
+                            <CardImg top src="image2.jpg" alt="Card image" />
+                        </Link>
+                        <CardBody>
+                            <CardTitle>Title 2</CardTitle>
+                            <CardText>Description 2</CardText>
+                        </CardBody>
+                    </Card>
+                </div>
+                <div className="col-md-4">
+                    <Card>
+                        <Link to="/page3">
+                            <CardImg top src="image3.jpg" alt="Card image" />
+                        </Link>
+                        <CardBody>
+                            <CardTitle>Title 3</CardTitle>
+                            <CardText>Description 3</CardText>
+                        </CardBody>
+                    </Card>
+                </div>
+            </div>
         </div>
       </div>
     </div>
