@@ -53,8 +53,8 @@ function NavBar() {
 
                                     <form classname="flex items-center">
                                         <input className="border-2 rounded-l-full py-2 px-4 focus:outline-none focus:border-white" type="text" placeholder="Search" />
-                                        <button className="bg-green-800 hover:bg-green-500 py-3.5 rounded-r-full py-2 px-4 focus:outline-none focus:shadow-outline-black">
-                                            <svg className="fill-current text-black h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/></svg>
+                                        <button className="bg-green-800 hover:bg-green-500 py-4 rounded-r-full py-2 px-4 focus:outline-none focus:shadow-outline-black">
+                                            <svg className="fill-current text-black h- w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/></svg>
                                         </button>
                                     </form>
                                 </div>
@@ -137,13 +137,13 @@ function NavBar() {
                         href="#"
                         className="hover:bg-gray-700 hover:text-white text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                         >
-                        List a Venue
+                        Add Listing
                         </a>
 
                         <form className="flex justify-center items-center py-5">
                             <input className="border-2 rounded-l-full py-2 px-4 focus:outline-none focus:border-white" type="text" placeholder="Search" />
-                            <button className="bg-green-800 hover:bg-green-500 py-3.5 rounded-r-full py-2 px-4 focus:outline-none focus:shadow-outline-black">
-                                <svg className="fill-current text-black h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/></svg>
+                            <button className="bg-green-800 py-3.5 rounded-r-full py-2 px-4 focus:outline-none focus:shadow-outline-black">
+                                <svg className="fill-current text-black h-2 w-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/></svg>
                             </button>
                         </form>
                     </div>
