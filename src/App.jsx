@@ -2,12 +2,12 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
-import Dashboard from './pages/Dashboard.jsx';
-import MyVenues from './pages/MyVenues.jsx';
-import Clients from './pages/Clients';
-import Comment from './pages/Comment.jsx';
-import EditProfile from './pages/EditProfile';
-import AddVenue from './pages/AddVenue.jsx';
+import Dashboard from './pages0/Dashboard.jsx';
+import MyVenues from './pages0/MyVenues.jsx';
+import Clients from './pages0/Clients';
+import Comment from './pages0/Comment.jsx';
+import EditProfile from './pages0/EditProfile';
+import AddVenue from './pages0/AddVenue.jsx';
 import Cart from './components/Cart';
 import Navigation from './components/Navigation';
 
