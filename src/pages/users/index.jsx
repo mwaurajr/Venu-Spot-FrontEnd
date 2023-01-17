@@ -72,7 +72,7 @@ export default function Users() {
                 <li className="breadcrumb-item">
                   <a href="#">Home</a>
                 </li>
-                <li className="breadcrumb-item active">Users List</li>
+                <li className="breadcrumb-item active">My Client List</li>
               </ol>
             </div>
           </div>
@@ -85,21 +85,7 @@ export default function Users() {
               <div className="card">
                 <h5 className="card-header">Users List</h5>
                 <div className="card-body">
-                  {/* <pre>
-                    <code>
-                      {JSON.stringify(
-                        {
-                          pageIndex,
-                          pageSize,
-                          pageCount,
-                          canNextPage,
-                          canPreviousPage,
-                        },
-                        null,
-                        2
-                      )}
-                    </code>
-                  </pre> */}
+              
                   <table className="table table-bordered" {...getTableProps()}>
                     <thead>
                       {headerGroups.map((headerGroup) => (
@@ -160,20 +146,7 @@ export default function Users() {
                         {pageIndex + 1} of {pageOptions.length}
                       </strong>{" "}
                     </span>
-                    {/* <span>
-                      | Go to page:{" "}
-                      <input
-                        type="number"
-                        defaultValue={pageIndex + 1}
-                        onChange={(e) => {
-                          const page = e.target.value
-                            ? Number(e.target.value) - 1
-                            : 0;
-                          gotoPage(page);
-                        }}
-                        style={{ width: "100px" }}
-                      />
-                    </span>{" "} */}
+                
                     <select
                       value={pageSize}
                       onChange={(e) => {
