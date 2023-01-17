@@ -1,39 +1,30 @@
-import { useState } from 'react'
-import { Routes, Route } from "react-router-dom";
+import React from 'react';
+import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Sidebar from './components/Sidebar';
+import Dashboard from './pages/Dashboard.jsx';
+import About from './pages/About.jsx';
+import Clients from './pages/Clients';
+import Comment from './pages/Comment.jsx';
+import Product from './pages/Product.jsx';
+import ProductList from './pages/ProductList.jsx';
 
-
-import './App.css'
-import SideBar from './components/SideBar'
-import Venues from './components/Venues'
-import Card from './components/Card';
-import NavBar from './components/NavBar';
-import Footer from './components/Footer'
-import LogIn from './components/LogIn';
-import SignUp from './components/SignUp';
-import LandingPage from './components/LandingPage'
-import Contact from './components/Contact';
-import Admin from './components/Admin';
-
-
-import Dashboard from './Manager/managerDashboard';
-
-function App() {
+const App = () => {
   return (
-    < div className='App'>
-      <NavBar />
-      <Routes>
-        <Route path='/' element={ <LandingPage/> } />
-        <Route path='login' element={ <LogIn /> } />
-        <Route path='/signup' element={ <SignUp /> } />
-        <Route path='/admin' element={ <Admin/> } />
-        <Route path='/contact' element={ <Contact /> } />
-        <Route path='/venues' element={ <Venues /> } />
-        <Route path='/manager-dash' element={<Dashboard />} />
-      </Routes>
+    <BrowserRouter>
+      <Sidebar>
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/comment" element={<Comment />} />
+          <Route path="/my-clients" element={<Clients />} />
+          <Route path="/product" element={<Product />} />
+          <Route path="/productList" element={<ProductList />} />
+        </Routes>
+      </Sidebar>
+    </BrowserRouter>
+  );
+};
 
-   
-    </div>
-  )
-}
-
-export default App
+export default App;
