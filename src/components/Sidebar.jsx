@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaTh, FaBars, FaHSquare, FaHome, FaHouseUser, FaUserEdit, FaUserCircle } from "react-icons/fa";
+import { FaTh, FaBars, FaHSquare, FaHome, FaHouseUser, FaUserEdit, FaUserCircle, FaComment } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 
 const Sidebar = ({ children }) => {
@@ -27,7 +27,13 @@ const Sidebar = ({ children }) => {
                     </div>
                     <div className="link_text">My Clients</div>
                 </NavLink>
-                <NavLink to="/venues" className="link" activeclassName="active">
+                <NavLink to="/comment" className="link" activeclassName="active">
+                    <div className="icon">
+                        <FaComment />
+                    </div>
+                    <div className="link_text">My Reviews</div>
+                </NavLink>
+                <NavLink to="/my-venues" className="link" activeclassName="active">
                     <div className="icon">
                         <FaHome />
                     </div>
@@ -39,7 +45,7 @@ const Sidebar = ({ children }) => {
                     </div>
                     <div className="link_text">Add Venue</div>
                 </NavLink>
-                <NavLink to="/add-venue" className="link" activeclassName="active">
+                <NavLink to="/edit-profile" className="link" activeclassName="active">
                     <div className="icon">
                         <FaUserEdit />
                     </div>
