@@ -12,7 +12,7 @@ export default function Home() {
             <div className="col-sm-6">
               <ol className="breadcrumb float-sm-right">
                 <li className="breadcrumb-item">
-                  <li className="breadcrumb-item active">Home</li>
+                  <li className="breadcrumb-item active">Manager Dashboard</li>
                 </li>
               </ol>
             </div>

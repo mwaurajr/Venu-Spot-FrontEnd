@@ -49,7 +49,7 @@ export default function Sidebar() {
               </li>
               <li className="nav-item">
                 <Link to="/update-profile" className="nav-link">
-                <i className="nav-icon fas fa-construction"></i>
+                <i className="nav-icon fas fa-user"></i>
                   <p>Update Profile</p>
                 </Link>
               </li>
