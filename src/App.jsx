@@ -1,8 +1,8 @@
 import React from 'react'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import WithNavbar from './layouts/WithNavbar';
-import WithOutnavbar from './layouts/WithOutnavbar';
+import WithNavbar from './manager-dashboard/layouts/WithNavbar';
+import WithOutnavbar from './manager-dashboard/layouts/WithOutnavbar';
 import Signin from './pages/auth/Signin'
 import Signup from './pages/auth/Signup'
 import Home from './pages/home'
