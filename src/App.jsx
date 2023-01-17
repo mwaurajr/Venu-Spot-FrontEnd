@@ -3,13 +3,13 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import WithNavbar from './manager-dashboard/layouts/WithNavbar';
 import WithOutnavbar from './manager-dashboard/layouts/WithOutnavbar';
-import Signin from './pages/auth/Signin'
-import Signup from './pages/auth/Signup'
-import Home from './pages/home'
-import About from './pages/about'
-import Users from './pages/users'
-import MyVenues from './pages/venues';
-import UpdateUser from './pages/update-user';
+import Signin from './manager-dashboard/pages/auth/Signin'
+import Signup from './manager-dashboard/pages/auth/Signup'
+import Home from './manager-dashboard/pages/home'
+import About from './manager-dashboard/pages/about'
+import Users from './manager-dashboard/pages/users'
+import MyVenues from './manager-dashboard/pages/venues';
+import UpdateUser from './manager-dashboard/pages/update-user';
 
 function App() {
   return (
