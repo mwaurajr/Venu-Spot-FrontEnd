@@ -9,6 +9,7 @@ import Home from './pages/home'
 import About from './pages/about'
 import Users from './pages/users'
 import MyVenues from './pages/venues';
+import UpdateUser from './pages/update-user';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           <Route path='/about' element={<About/>}/>
           <Route path='/users' element={<Users/>}/>
           <Route path='/my-venues' element={<MyVenues/>}/>
+          <Route path='/update-profile' element={<UpdateUser/>}/>
+
+
 
         </Route>
       </Routes>
