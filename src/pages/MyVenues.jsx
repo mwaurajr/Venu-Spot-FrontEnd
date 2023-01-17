@@ -9,6 +9,12 @@ const MyVenues = () => {
         { id: 1, title: 'Venue 1', image: 'https://via.placeholder.com/300x200', link: 'https://www.venue1.com' },
         { id: 2, title: 'Venue 2', image: 'https://via.placeholder.com/300x200', link: 'https://www.venue2.com' },
         { id: 3, title: 'Venue 3', image: 'https://via.placeholder.com/300x200', link: 'https://www.venue3.com' },
+        { id: 4, title: 'Venue 4', image: 'https://via.placeholder.com/300x200', link: 'https://www.venue3.com' },
+        { id: 5, title: 'Venue 5', image: 'https://via.placeholder.com/300x200', link: 'https://www.venue3.com' },
+        { id: 6, title: 'Venue 6', image: 'https://via.placeholder.com/300x200', link: 'https://www.venue3.com' },
+        { id: 7, title: 'Venue 7', image: 'https://via.placeholder.com/300x200', link: 'https://www.venue3.com' },
+        { id: 8, title: 'Venue 8', image: 'https://via.placeholder.com/300x200', link: 'https://www.venue3.com' },
+
         // add more venues here as needed
     ];
 
@@ -21,7 +27,7 @@ const MyVenues = () => {
     const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
     return (
-        <Container>
+        <Container fluid>
             <h1>My Venues</h1>
             <Row>
                 {currentVenues.map(venue => (
@@ -42,7 +48,7 @@ const MyVenues = () => {
                 linkClass='page-link'
                 itemsCountPerPage={venuesPerPage}
                 totalItemsCount={venues.length}
-                pageRangeDisplayed={5}
+                pageRangeDisplayed={3}
                 activePage={currentPage}
                 onChange={paginate}
             />
