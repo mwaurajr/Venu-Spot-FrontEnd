@@ -171,70 +171,14 @@ h2 {
  .group-hover:text-gray-700 {
   padding-right: 5cm;
  }
-
- /*Dashboard*/ 
- *{
-  margin:0;
-  padding:0;
-  text-decoration: none;
+/**DASHBOARD**/
+body{
+  font-family: 'Mitr';
 }
-.container{
-  display:flex;
-}
-main{
-  width: 100%;
-  padding: 20px;
+code{
+  font-family: 'Mitr';
 }
 
-/* nav ul li {
-  list-style: none;
-  width: 4%;
-  float: left;
-  margin: 0% 1% 2% 2%;
-  vertical-align: middle;
-  text-align: center;
-  align-items: center;
-  height: 10px;
-  margin-top: 0%;
-  padding-top: 0%;
-} */
-
-.sidebar{
-  background: #000;
-  color: #fff;
-  height: 100vh;
-  width: 200px;
-  transition: all 0.5s;
-}
-.top_section{
-  display: flex;
-  align-items:center;
-  padding:20px 15px;
-}
-.logo{
-  font-size: 30px;
-}
-.bars{
-  display: flex;
-  font-size: 25px;
-  margin-left: 50px;
-}
-.link{
-  display: flex;
-  color: #fff;
-  padding: 10px 15px;
-  gap: 15px;
-  transition: all 0.5s;
-}
-.link:hover{
-  background:gray;
-  color: #000;
-  transition: all 0.5s;
-}
-.active{
-  background: gray;
-  color: #000;
-}
-.icon, .link_text{
-  font-size: 20px;
+.dropdown-menu {
+  min-width: 4rem;
 }
