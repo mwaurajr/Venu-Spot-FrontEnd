@@ -6,13 +6,8 @@ export default function ClientSidebar() {
     <>
       <aside className="main-sidebar nav-pills sidebar-dark-primary sidebar-no-expand elevation-1">
         <Link to="/client-side" className="brand-link">
-          {/* <img
-            // src="/src/assets/dist/img/AdminLTELogo.png"
-            alt="AdminLTE Logo"
-            className="brand-image img-circle elevation-1"
-            style={{ opacity: ".8" }}
-          /> */}
-          <span className="brand-text font-weight-light">Venu-Spot - user </span>
+        
+          <span className="brand-text font-weight-light">Venu-Spot - Client </span>
 
         </Link>
         <div className="sidebar">
@@ -24,29 +19,26 @@ export default function ClientSidebar() {
               data-accordion="false"
             >
               <li className="nav-item">
-                <Link to="/" className="nav-link">
+                <Link to="/client-home" className="nav-link">
                   <i className="nav-icon fas fa-home"></i>
-                  <p>Home</p>
+                  <p>Client Home</p>
                 </Link>
               </li>
+
               <li className="nav-item">
                 <Link to="/about-venue" className="nav-link">
                 <i className="nav-icon fas fa-address-card"></i>
                   <p>About Venue-Spot</p>
                 </Link>
               </li>
-              {/* <li className="nav-item">
-                <Link to="/users" className="nav-link">
-                <i className="nav-icon fas fa-users"></i>
-                  <p>My Clients</p>
-                </Link>
-              </li> */}
+             
               <li className="nav-item">
                 <Link to="/my-bookings" className="nav-link">
                 <i className="nav-icon fas fa-home"></i>
                   <p>My Bookings</p>
                 </Link>
               </li>
+              
               <li className="nav-item">
                 <Link to="/user-profile" className="nav-link">
                 <i className="nav-icon fas fa-user"></i>

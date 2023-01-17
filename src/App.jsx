@@ -9,8 +9,10 @@ import Home from './manager-dashboard/pages/home'
 import About from './manager-dashboard/pages/about'
 import Users from './manager-dashboard/pages/users'
 import MyVenues from './manager-dashboard/pages/venues';
+// Client
 import UpdateUser from './manager-dashboard/pages/update-user';
 import ClientSidebar from './client-dashboard/components/ClientSidebar';
+import ClientHome from './client-dashboard/pages/client-home';
 
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
           <Route path='/my-venues' element={<MyVenues/>}/>
           <Route path='/update-profile' element={<UpdateUser/>}/>
           <Route path='/client-side' element={<ClientSidebar/>}/>
+          <Route path='/client-home' element={<ClientHome/>}/>
+
 
 
 
