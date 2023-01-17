@@ -28,8 +28,13 @@ export default function About() {
               <div className="card">
                 <div className="card-body">
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti quisquam sequi ipsum itaque quo fugit repellat 
-                    quos soluta autem qui! Assumenda, excepturi non. Numquam officiis deserunt nam! Iste, ratione veritatis.
+                  Our venue booking platform, based in Nairobi, is designed to connect venue owners with individuals and businesses
+                  in need of a space to host events. We offer a wide range of venue options, including indoor and outdoor spaces, meeting
+                  rooms, and unique venues such as rooftop terraces and historical buildings. Our platform makes it easy for venue owners 
+                  to rent out their space and for customers to find the perfect location for their event. With a user-friendly interface
+                   and a variety of search filters, users can easily find the right venue to fit their budget, style and capacity needs. 
+                   We are dedicated to providing an efficient and reliable service that makes it easy for people to plan and host successful 
+                   events.
                   </p>
                 </div>
               </div>
