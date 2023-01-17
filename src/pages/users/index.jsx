@@ -6,10 +6,10 @@ export default function Users() {
   const [data, setData] = useState([]);
 
   const getData = () => {
-    axios.get("https://www.melivecode.com/api/users").then((response) => {
-      setData(response.data);
-    });
-  };
+    fetch("https://www.melivecode.com/api/users")
+      .then((response) => response.json())
+      .then((data) => setData(data));
+};
 
   useEffect(() => {
     getData();
@@ -72,7 +72,7 @@ export default function Users() {
                 <li className="breadcrumb-item">
                   <a href="#">Home</a>
                 </li>
-                <li className="breadcrumb-item active">My Client List</li>
+                <li className="breadcrumb-item active">Users List</li>
               </ol>
             </div>
           </div>
@@ -85,7 +85,7 @@ export default function Users() {
               <div className="card">
                 <h5 className="card-header">Users List</h5>
                 <div className="card-body">
-              
+                  
                   <table className="table table-bordered" {...getTableProps()}>
                     <thead>
                       {headerGroups.map((headerGroup) => (
