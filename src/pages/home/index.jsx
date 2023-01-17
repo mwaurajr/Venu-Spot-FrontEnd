@@ -25,8 +25,8 @@ export default function Home() {
             <div className="col-lg-3">
               <div className="small-box bg-info">
                 <div className="inner">
-                  <h3>150</h3>
-                  <p>New Orders</p>
+                  <h3>My</h3>
+                  <p>Transactions</p>
                 </div>
                 <div className="icon">
                   <i className="fas fa-shopping-cart" />
@@ -39,8 +39,8 @@ export default function Home() {
             <div className="col-lg-3">
               <div className="small-box bg-success">
                 <div className="inner">
-                  <h3>90</h3>
-                  <p>User Registrations</p>
+                  <h3>Update</h3>
+                  <p>Details</p>
                 </div>
                 <div className="icon">
                   <i className="fas fa-user-plus" />
@@ -53,7 +53,7 @@ export default function Home() {
             <div className="col-lg-3">
               <div className="small-box bg-danger">
                 <div className="inner">
-                  <h3>30</h3>
+                  <h3>Check</h3>
                   <p>New Bookings</p>
                 </div>
                 <div className="icon">
@@ -67,8 +67,8 @@ export default function Home() {
             <div className="col-lg-3">
               <div className="small-box bg-warning">
                 <div className="inner">
-                  <h3>200</h3>
-                  <p>All Users</p>
+                  <h3>View</h3>
+                  <p>Clients</p>
                 </div>
                 <div className="icon">
                   <i className="fas fa-users" />
