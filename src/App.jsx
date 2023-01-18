@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Routes, Route } from "react-router-dom";
 
+
 import './App.css'
 import SideBar from './components/SideBar'
 import Venues from './components/Venues'
@@ -14,6 +15,9 @@ import Reviews from './components/Reviews';
 import LandingPage from './components/LandingPage'
 import Contact from './components/Contact';
 import Admin from './components/Admin';
+
+
+import Dashboard from './Manager/managerDashboard';
 
 function App() {
   return (
@@ -29,7 +33,8 @@ function App() {
         <Route path='/bookings' element={<Bookings />} />
         <Route path='/reviews' element={<Reviews />} />
       </Routes>
-      <Footer />
+
+   
     </div>
   )
 }
