@@ -4,7 +4,7 @@ import { NavLink as Link } from 'react-router-dom'
 export default function Sidebar() {
   return (
     <>
-      <aside className="main-sidebar nav-pills sidebar-dark-primary sidebar-no-expand elevation-1">
+<aside className="main-sidebar nav-pills bg-black sidebar-no-expand elevation-1">
         <Link to="/" className="brand-link">
           {/* <img
             // src="/src/assets/dist/img/AdminLTELogo.png"
